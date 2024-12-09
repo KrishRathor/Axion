@@ -1,25 +1,27 @@
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import React from "react";
-import Highlight from '@tiptap/extension-highlight'
-import TaskItem from '@tiptap/extension-task-item'
-import TaskList from '@tiptap/extension-task-list'
+import BulletList from '@tiptap/extension-bullet-list'
+import Document from '@tiptap/extension-document'
+import ListItem from '@tiptap/extension-list-item'
+import Paragraph from '@tiptap/extension-paragraph'
+import Text from '@tiptap/extension-text'
 
 export const TipTapEditor: React.FC = () => {
     const editor = useEditor({
         extensions: [
             StarterKit.configure(),
-            Highlight,
-            TaskList,
-            TaskItem,
+            Document,
+            BulletList,
+            ListItem,
+            Paragraph,
+            Text
         ],
         content: `
-            <p> hi my name is <b>krish rathor</b>    </p>
-            <code>
-                const a = 2;
-                const b = 3;
-            </code>
-        
+            <ul>
+                <li>hi there</li>
+                <li>bi there</li>
+            </ul>
         `
     });
 
