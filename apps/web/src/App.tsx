@@ -1,5 +1,4 @@
 import { TipTapEditor } from "./components/editor/TipTapEditor";
-// import './index.scss';
 
 function App() {
   return (

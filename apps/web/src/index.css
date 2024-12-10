@@ -3,7 +3,14 @@
     padding: 1rem; /* Adjust as needed */
     background-color: #1a1a1a; /* Optional: Set editor background color */
     color: white; /* Optional: Set text color for readability */
-  
+    height: 90vh;
+    width: 60vw;
+    border: white solid 1px;
+    border-radius: 5px;
+    overflow-y: scroll;
+    margin-left: 22vw;
+    margin-top: 5vh;
+    font-size: large;
 
     ul,
     ol {
