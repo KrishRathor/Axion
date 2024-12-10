@@ -40,7 +40,6 @@ export default function App() {
 <h3>Features</h3>
 <ol>
   <li>Slash menu &amp; bubble menu</li>
-  <li>AI autocomplete (type <code>++</code> to activate, or select from slash menu)</li>
   <li>Image uploads (drag &amp; drop / copy &amp; paste, or select from slash menu)</li>
   <li>Add tweets from the command slash menu:
   </li>
